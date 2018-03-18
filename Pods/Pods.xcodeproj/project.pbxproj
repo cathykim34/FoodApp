@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		228B0C45025964176BD932B8DA05CA19 /* Pods-Diner FinderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4243BC69A01D053744ED7A89EC05745 /* Pods-Diner FinderTests-dummy.m */; };
+		454AB3B71311A00D712561BCDBCEE836 /* Pods-Diner FinderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEB8491F4598E9E6072CAD1F739CE1B3 /* Pods-Diner FinderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		701CFD8CBB4C7C3A98802A71675BF562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A324101C47BB5FF97C918A2B7B056C1C /* Pods-Diner FinderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 289A00D14B3C483CBB3B3194620B37E2 /* Pods-Diner FinderUITests-dummy.m */; };
+		A34E1D9ED6455AEA9AAA0E1842651272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B4B564C2496804CB876236101545DB9C /* Pods-Diner Finder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98569885E3789CA7AFB1B1E8D8C438F5 /* Pods-Diner Finder-dummy.m */; };
+		B7318A56B3AE65F177801F5564DF64A1 /* Pods-Diner Finder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6942019DAF4157C7E2131F5A821057 /* Pods-Diner Finder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC848965202ED69F6BD5ADB7A2BC8186 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F08BA35579F83E11AFD44C54F5198041 /* Pods-Diner FinderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D876EE053A0BAE8E9A7E71B66D33A2D /* Pods-Diner FinderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07790BD46C0A51AE9AF086D8F62242CC /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacePicker.framework; path = Frameworks/GooglePlacePicker.framework; sourceTree = "<group>"; };
+		1117A6D1FE68A6F983D560933AF5E265 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		1D876EE053A0BAE8E9A7E71B66D33A2D /* Pods-Diner FinderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Diner FinderUITests-umbrella.h"; sourceTree = "<group>"; };
+		1E32F827363292E5BFF136708362D20B /* Pods-Diner FinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Diner FinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		23FFB98B34C20E0A414275DCCE8EFD51 /* Pods_Diner_FinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Diner_FinderUITests.framework; path = "Pods-Diner FinderUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2567515D776CE2C33A07B08795BE7CBB /* Pods-Diner Finder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Diner Finder-acknowledgements.plist"; sourceTree = "<group>"; };
+		289A00D14B3C483CBB3B3194620B37E2 /* Pods-Diner FinderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Diner FinderUITests-dummy.m"; sourceTree = "<group>"; };
+		32F2B875BAD4AACA85E43D9FF4FCB3B4 /* Pods-Diner FinderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Diner FinderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36A23F83073440E865ABA3C48A610002 /* Pods-Diner Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Diner Finder.release.xcconfig"; sourceTree = "<group>"; };
+		3B6942019DAF4157C7E2131F5A821057 /* Pods-Diner Finder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Diner Finder-umbrella.h"; sourceTree = "<group>"; };
+		536A033EBE072DDB74E89FC1AEE10C27 /* Pods-Diner FinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Diner FinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C676E4104CE408BDCC8A046F94675E2 /* Pods-Diner FinderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Diner FinderTests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75D5762CDCAA841BAB9D7492563B7720 /* Pods-Diner FinderUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Diner FinderUITests-resources.sh"; sourceTree = "<group>"; };
+		8BCCCA295DEE22197B0C283775AB5A26 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		8BEC9F7ED88BA5A47B39692AD7CFBB9A /* Pods-Diner FinderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Diner FinderUITests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		955D3A22EB34AB333524A949DC729F6B /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		98569885E3789CA7AFB1B1E8D8C438F5 /* Pods-Diner Finder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Diner Finder-dummy.m"; sourceTree = "<group>"; };
+		9B021D1E41E6FF239D4430C5A0FE6854 /* Pods-Diner FinderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Diner FinderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A16FFCB99AEE391845D13133BB9978C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B661483CA41B693817F2AD8E997C68 /* Pods-Diner FinderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Diner FinderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A53E5D486E9829057F40706343D6CA79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B52C45CDCD57F652DFC3714995A23CFC /* Pods-Diner Finder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Diner Finder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9B940E1693884E5C7E751D263379D72 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		BFE5163EC6F451A1695D78D8E2BDA41C /* Pods-Diner Finder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Diner Finder-frameworks.sh"; sourceTree = "<group>"; };
+		C13274DA061D7E6B6BCB8ED1EE2D5A0D /* Pods-Diner FinderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Diner FinderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C22C6DCF5DAC396637B909C83CB89AA5 /* Pods-Diner FinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Diner FinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CCAD613BED66300AA28AB1F664A6F55B /* Pods_Diner_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Diner_Finder.framework; path = "Pods-Diner Finder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1DBCD0071D70866EBEFA8E983E0A2FE /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		D57A28887B9E80E29D36BD414E63A790 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		DA012B6F21B8E2059DF4B0943642D3AD /* Pods_Diner_FinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Diner_FinderTests.framework; path = "Pods-Diner FinderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA97BDA2A822CAF06749E285EF891AB /* Pods-Diner Finder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Diner Finder-resources.sh"; sourceTree = "<group>"; };
+		DE0C6D7F87C8492A9C480718831B7EC0 /* Pods-Diner Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Diner Finder.debug.xcconfig"; sourceTree = "<group>"; };
+		DE6D813C2480BFCB39E614B9535A00EF /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
+		E7FEE86FFE0F62F9743B2F55668C5B45 /* Pods-Diner FinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Diner FinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E921FFBA906501524161DDA926C9B390 /* Pods-Diner FinderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Diner FinderTests.modulemap"; sourceTree = "<group>"; };
+		EC62E9BCE9E3C2988EAE298D85EAD910 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED432B8217AC6300BDFA744C4E68EF6D /* Pods-Diner FinderUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Diner FinderUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EE1F7BA6D8A3237247784EAA2126A6A3 /* Pods-Diner FinderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Diner FinderTests-resources.sh"; sourceTree = "<group>"; };
+		F4243BC69A01D053744ED7A89EC05745 /* Pods-Diner FinderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Diner FinderTests-dummy.m"; sourceTree = "<group>"; };
+		F46B6F52BFBDE055F26A8A95E734D685 /* Pods-Diner Finder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Diner Finder.modulemap"; sourceTree = "<group>"; };
+		FEB8491F4598E9E6072CAD1F739CE1B3 /* Pods-Diner FinderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Diner FinderTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		879EAF39220BB24E3B5019B299AFB557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701CFD8CBB4C7C3A98802A71675BF562 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39F7303D3A69541612918675685ED2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34E1D9ED6455AEA9AAA0E1842651272 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF65FE22DE4A8AD1DFBBCCD63599C6F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC848965202ED69F6BD5ADB7A2BC8186 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057612C31241123A1B53E2F8FEE23AB0 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				8BA44F82F96D164DA342FB09A0BEE150 /* Frameworks */,
+				DADFB7FC1731804E229D4AEF6493F2F7 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		0A10E626C4C0B9AAA1A03AB42F945D98 /* Pods-Diner FinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A16FFCB99AEE391845D13133BB9978C9 /* Info.plist */,
+				8BEC9F7ED88BA5A47B39692AD7CFBB9A /* Pods-Diner FinderUITests.modulemap */,
+				C13274DA061D7E6B6BCB8ED1EE2D5A0D /* Pods-Diner FinderUITests-acknowledgements.markdown */,
+				9B021D1E41E6FF239D4430C5A0FE6854 /* Pods-Diner FinderUITests-acknowledgements.plist */,
+				289A00D14B3C483CBB3B3194620B37E2 /* Pods-Diner FinderUITests-dummy.m */,
+				ED432B8217AC6300BDFA744C4E68EF6D /* Pods-Diner FinderUITests-frameworks.sh */,
+				75D5762CDCAA841BAB9D7492563B7720 /* Pods-Diner FinderUITests-resources.sh */,
+				1D876EE053A0BAE8E9A7E71B66D33A2D /* Pods-Diner FinderUITests-umbrella.h */,
+				536A033EBE072DDB74E89FC1AEE10C27 /* Pods-Diner FinderUITests.debug.xcconfig */,
+				C22C6DCF5DAC396637B909C83CB89AA5 /* Pods-Diner FinderUITests.release.xcconfig */,
+			);
+			name = "Pods-Diner FinderUITests";
+			path = "Target Support Files/Pods-Diner FinderUITests";
+			sourceTree = "<group>";
+		};
+		1973FE3177F0EC42039F236C5F5BE233 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96AFAE713131BF61B48C0745C35D10BD /* Pods-Diner Finder */,
+				23A9D01F9FDCB3B3A9C6C1F262163279 /* Pods-Diner FinderTests */,
+				0A10E626C4C0B9AAA1A03AB42F945D98 /* Pods-Diner FinderUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		23A9D01F9FDCB3B3A9C6C1F262163279 /* Pods-Diner FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A53E5D486E9829057F40706343D6CA79 /* Info.plist */,
+				E921FFBA906501524161DDA926C9B390 /* Pods-Diner FinderTests.modulemap */,
+				32F2B875BAD4AACA85E43D9FF4FCB3B4 /* Pods-Diner FinderTests-acknowledgements.markdown */,
+				A4B661483CA41B693817F2AD8E997C68 /* Pods-Diner FinderTests-acknowledgements.plist */,
+				F4243BC69A01D053744ED7A89EC05745 /* Pods-Diner FinderTests-dummy.m */,
+				5C676E4104CE408BDCC8A046F94675E2 /* Pods-Diner FinderTests-frameworks.sh */,
+				EE1F7BA6D8A3237247784EAA2126A6A3 /* Pods-Diner FinderTests-resources.sh */,
+				FEB8491F4598E9E6072CAD1F739CE1B3 /* Pods-Diner FinderTests-umbrella.h */,
+				E7FEE86FFE0F62F9743B2F55668C5B45 /* Pods-Diner FinderTests.debug.xcconfig */,
+				1E32F827363292E5BFF136708362D20B /* Pods-Diner FinderTests.release.xcconfig */,
+			);
+			name = "Pods-Diner FinderTests";
+			path = "Target Support Files/Pods-Diner FinderTests";
+			sourceTree = "<group>";
+		};
+		45A6375AD18305E8BA7B79AD1BE61E9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BCCCA295DEE22197B0C283775AB5A26 /* GoogleMaps.framework */,
+				1117A6D1FE68A6F983D560933AF5E265 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A740561E3ED1DB52E38DA889DBC9D7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD613BED66300AA28AB1F664A6F55B /* Pods_Diner_Finder.framework */,
+				DA012B6F21B8E2059DF4B0943642D3AD /* Pods_Diner_FinderTests.framework */,
+				23FFB98B34C20E0A414275DCCE8EFD51 /* Pods_Diner_FinderUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A999BD5B4C2C01904FC59776164FBE1 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				45A6375AD18305E8BA7B79AD1BE61E9D /* Frameworks */,
+				E8816D4FFB28FB18F0B906E7CC732470 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C62832EC902B481843EFC870F9D95CC2 /* Pods */,
+				4A740561E3ED1DB52E38DA889DBC9D7D /* Products */,
+				1973FE3177F0EC42039F236C5F5BE233 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BA44F82F96D164DA342FB09A0BEE150 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				955D3A22EB34AB333524A949DC729F6B /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FFA7EAE118844748AD9685060A6B673 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FD4ED290151C28ABCF7A3EA0217355EB /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		96AFAE713131BF61B48C0745C35D10BD /* Pods-Diner Finder */ = {
+			isa = PBXGroup;
+			children = (
+				EC62E9BCE9E3C2988EAE298D85EAD910 /* Info.plist */,
+				F46B6F52BFBDE055F26A8A95E734D685 /* Pods-Diner Finder.modulemap */,
+				B52C45CDCD57F652DFC3714995A23CFC /* Pods-Diner Finder-acknowledgements.markdown */,
+				2567515D776CE2C33A07B08795BE7CBB /* Pods-Diner Finder-acknowledgements.plist */,
+				98569885E3789CA7AFB1B1E8D8C438F5 /* Pods-Diner Finder-dummy.m */,
+				BFE5163EC6F451A1695D78D8E2BDA41C /* Pods-Diner Finder-frameworks.sh */,
+				DAA97BDA2A822CAF06749E285EF891AB /* Pods-Diner Finder-resources.sh */,
+				3B6942019DAF4157C7E2131F5A821057 /* Pods-Diner Finder-umbrella.h */,
+				DE0C6D7F87C8492A9C480718831B7EC0 /* Pods-Diner Finder.debug.xcconfig */,
+				36A23F83073440E865ABA3C48A610002 /* Pods-Diner Finder.release.xcconfig */,
+			);
+			name = "Pods-Diner Finder";
+			path = "Target Support Files/Pods-Diner Finder";
+			sourceTree = "<group>";
+		};
+		9C0A1FBBD02B7528347BC7FB84DE24F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07790BD46C0A51AE9AF086D8F62242CC /* GooglePlacePicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C62832EC902B481843EFC870F9D95CC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5C0912CEC7444CFF51EFFE502270519 /* GoogleMaps */,
+				CCA175DF4D87459CA14C4E01BCFDEF95 /* GooglePlacePicker */,
+				057612C31241123A1B53E2F8FEE23AB0 /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCA175DF4D87459CA14C4E01BCFDEF95 /* GooglePlacePicker */ = {
+			isa = PBXGroup;
+			children = (
+				9C0A1FBBD02B7528347BC7FB84DE24F5 /* Frameworks */,
+				CCDB8ACB50B37F1810F3A87BA87382A7 /* Resources */,
+			);
+			name = GooglePlacePicker;
+			path = GooglePlacePicker;
+			sourceTree = "<group>";
+		};
+		CCDB8ACB50B37F1810F3A87BA87382A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE6D813C2480BFCB39E614B9535A00EF /* GooglePlacePicker.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DADFB7FC1731804E229D4AEF6493F2F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9B940E1693884E5C7E751D263379D72 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E5C0912CEC7444CFF51EFFE502270519 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				8FFA7EAE118844748AD9685060A6B673 /* Base */,
+				7A999BD5B4C2C01904FC59776164FBE1 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		E8816D4FFB28FB18F0B906E7CC732470 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D57A28887B9E80E29D36BD414E63A790 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FD4ED290151C28ABCF7A3EA0217355EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1DBCD0071D70866EBEFA8E983E0A2FE /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		055AF3D0909AF2340A48B70A6C9EBD52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454AB3B71311A00D712561BCDBCEE836 /* Pods-Diner FinderTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C288F59D2ACBD7ECFFF0CA498F0D89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08BA35579F83E11AFD44C54F5198041 /* Pods-Diner FinderUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92804836441B3914C3B26169D72397C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7318A56B3AE65F177801F5564DF64A1 /* Pods-Diner Finder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7E7C6C63E97D18CEEBD1A016EC53EFAD /* Pods-Diner Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E71CEBA4B71D145CB0F06898E7F8B137 /* Build configuration list for PBXNativeTarget "Pods-Diner Finder" */;
+			buildPhases = (
+				E63BE6314A0A69C5F8CFF848548CF4D4 /* Sources */,
+				FF65FE22DE4A8AD1DFBBCCD63599C6F0 /* Frameworks */,
+				F92804836441B3914C3B26169D72397C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Diner Finder";
+			productName = "Pods-Diner Finder";
+			productReference = CCAD613BED66300AA28AB1F664A6F55B /* Pods_Diner_Finder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE3164BB5646D6AF35C415B0A627A01C /* Pods-Diner FinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44FF3B35F0CC6D5BE1DE805E9BE8EC33 /* Build configuration list for PBXNativeTarget "Pods-Diner FinderUITests" */;
+			buildPhases = (
+				6763ADAB6BBA1D1A6E2717A94519364C /* Sources */,
+				E39F7303D3A69541612918675685ED2A /* Frameworks */,
+				61C288F59D2ACBD7ECFFF0CA498F0D89 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Diner FinderUITests";
+			productName = "Pods-Diner FinderUITests";
+			productReference = 23FFB98B34C20E0A414275DCCE8EFD51 /* Pods_Diner_FinderUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F665C60E19FCB4CE4F75E114E1C15F93 /* Pods-Diner FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0904AAB4187A1AAD6BD2D98B387F5E8F /* Build configuration list for PBXNativeTarget "Pods-Diner FinderTests" */;
+			buildPhases = (
+				BAE9224A6F94FECDFE32B2CBA211F9E4 /* Sources */,
+				879EAF39220BB24E3B5019B299AFB557 /* Frameworks */,
+				055AF3D0909AF2340A48B70A6C9EBD52 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Diner FinderTests";
+			productName = "Pods-Diner FinderTests";
+			productReference = DA012B6F21B8E2059DF4B0943642D3AD /* Pods_Diner_FinderTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4A740561E3ED1DB52E38DA889DBC9D7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E7C6C63E97D18CEEBD1A016EC53EFAD /* Pods-Diner Finder */,
+				F665C60E19FCB4CE4F75E114E1C15F93 /* Pods-Diner FinderTests */,
+				BE3164BB5646D6AF35C415B0A627A01C /* Pods-Diner FinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6763ADAB6BBA1D1A6E2717A94519364C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A324101C47BB5FF97C918A2B7B056C1C /* Pods-Diner FinderUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE9224A6F94FECDFE32B2CBA211F9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228B0C45025964176BD932B8DA05CA19 /* Pods-Diner FinderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63BE6314A0A69C5F8CFF848548CF4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B564C2496804CB876236101545DB9C /* Pods-Diner Finder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A42C0F72DD62186D76BEE99140AFE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536A033EBE072DDB74E89FC1AEE10C27 /* Pods-Diner FinderUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Diner FinderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Diner FinderUITests/Pods-Diner FinderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Diner_FinderUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A29BD21E1F8D58E3DC9D332B0DFC178D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A23F83073440E865ABA3C48A610002 /* Pods-Diner Finder.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Diner Finder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Diner Finder/Pods-Diner Finder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Diner_Finder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B07AB5E37634C0AC451F76B465C979AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E32F827363292E5BFF136708362D20B /* Pods-Diner FinderTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Diner FinderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Diner FinderTests/Pods-Diner FinderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Diner_FinderTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9933F011FAF5A05D335A6ABC9614208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C22C6DCF5DAC396637B909C83CB89AA5 /* Pods-Diner FinderUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Diner FinderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Diner FinderUITests/Pods-Diner FinderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Diner_FinderUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA33F186435244FD0FD5B7325332656C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D9020BCDB9E07B983DCA56BDED280604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7FEE86FFE0F62F9743B2F55668C5B45 /* Pods-Diner FinderTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Diner FinderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Diner FinderTests/Pods-Diner FinderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Diner_FinderTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFBA21CCC64EDE60F6ACEFCA53C279DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0C6D7F87C8492A9C480718831B7EC0 /* Pods-Diner Finder.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Diner Finder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Diner Finder/Pods-Diner Finder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Diner_Finder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0904AAB4187A1AAD6BD2D98B387F5E8F /* Build configuration list for PBXNativeTarget "Pods-Diner FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9020BCDB9E07B983DCA56BDED280604 /* Debug */,
+				B07AB5E37634C0AC451F76B465C979AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A24856F1A4871A780301AF5C02A2A /* Debug */,
+				CA33F186435244FD0FD5B7325332656C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44FF3B35F0CC6D5BE1DE805E9BE8EC33 /* Build configuration list for PBXNativeTarget "Pods-Diner FinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A42C0F72DD62186D76BEE99140AFE93 /* Debug */,
+				B9933F011FAF5A05D335A6ABC9614208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E71CEBA4B71D145CB0F06898E7F8B137 /* Build configuration list for PBXNativeTarget "Pods-Diner Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBA21CCC64EDE60F6ACEFCA53C279DE /* Debug */,
+				A29BD21E1F8D58E3DC9D332B0DFC178D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

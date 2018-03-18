@@ -1,0 +1,6 @@
+framework module Pods_Diner_Finder {
+  umbrella header "Pods-Diner Finder-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_Diner_FinderTests {
+  umbrella header "Pods-Diner FinderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
