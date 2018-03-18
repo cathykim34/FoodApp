@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26C8D57F205EF27C00B4141E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C8D57E205EF27C00B4141E /* AppDelegate.swift */; };
+		26C8D581205EF27C00B4141E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C8D580205EF27C00B4141E /* ViewController.swift */; };
+		26C8D584205EF27C00B4141E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C8D582205EF27C00B4141E /* Main.storyboard */; };
+		26C8D586205EF27C00B4141E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C8D585205EF27C00B4141E /* Assets.xcassets */; };
+		26C8D589205EF27C00B4141E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C8D587205EF27C00B4141E /* LaunchScreen.storyboard */; };
+		26C8D594205EF27C00B4141E /* Diner_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C8D593205EF27C00B4141E /* Diner_FinderTests.swift */; };
+		26C8D59F205EF27C00B4141E /* Diner_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C8D59E205EF27C00B4141E /* Diner_FinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26C8D590205EF27C00B4141E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26C8D573205EF27C00B4141E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26C8D57A205EF27C00B4141E;
+			remoteInfo = "Diner Finder";
+		};
+		26C8D59B205EF27C00B4141E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26C8D573205EF27C00B4141E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26C8D57A205EF27C00B4141E;
+			remoteInfo = "Diner Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26C8D57B205EF27C00B4141E /* Diner Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diner Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C8D57E205EF27C00B4141E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26C8D580205EF27C00B4141E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26C8D583205EF27C00B4141E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26C8D585205EF27C00B4141E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26C8D588205EF27C00B4141E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26C8D58A205EF27C00B4141E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C8D58F205EF27C00B4141E /* Diner FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diner FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C8D593205EF27C00B4141E /* Diner_FinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diner_FinderTests.swift; sourceTree = "<group>"; };
+		26C8D595205EF27C00B4141E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C8D59A205EF27C00B4141E /* Diner FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diner FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C8D59E205EF27C00B4141E /* Diner_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diner_FinderUITests.swift; sourceTree = "<group>"; };
+		26C8D5A0205EF27C00B4141E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26C8D578205EF27C00B4141E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C8D58C205EF27C00B4141E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C8D597205EF27C00B4141E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26C8D572205EF27C00B4141E = {
+			isa = PBXGroup;
+			children = (
+				26C8D57D205EF27C00B4141E /* Diner Finder */,
+				26C8D592205EF27C00B4141E /* Diner FinderTests */,
+				26C8D59D205EF27C00B4141E /* Diner FinderUITests */,
+				26C8D57C205EF27C00B4141E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26C8D57C205EF27C00B4141E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26C8D57B205EF27C00B4141E /* Diner Finder.app */,
+				26C8D58F205EF27C00B4141E /* Diner FinderTests.xctest */,
+				26C8D59A205EF27C00B4141E /* Diner FinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26C8D57D205EF27C00B4141E /* Diner Finder */ = {
+			isa = PBXGroup;
+			children = (
+				26C8D57E205EF27C00B4141E /* AppDelegate.swift */,
+				26C8D580205EF27C00B4141E /* ViewController.swift */,
+				26C8D582205EF27C00B4141E /* Main.storyboard */,
+				26C8D585205EF27C00B4141E /* Assets.xcassets */,
+				26C8D587205EF27C00B4141E /* LaunchScreen.storyboard */,
+				26C8D58A205EF27C00B4141E /* Info.plist */,
+			);
+			path = "Diner Finder";
+			sourceTree = "<group>";
+		};
+		26C8D592205EF27C00B4141E /* Diner FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				26C8D593205EF27C00B4141E /* Diner_FinderTests.swift */,
+				26C8D595205EF27C00B4141E /* Info.plist */,
+			);
+			path = "Diner FinderTests";
+			sourceTree = "<group>";
+		};
+		26C8D59D205EF27C00B4141E /* Diner FinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26C8D59E205EF27C00B4141E /* Diner_FinderUITests.swift */,
+				26C8D5A0205EF27C00B4141E /* Info.plist */,
+			);
+			path = "Diner FinderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26C8D57A205EF27C00B4141E /* Diner Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C8D5A3205EF27C00B4141E /* Build configuration list for PBXNativeTarget "Diner Finder" */;
+			buildPhases = (
+				26C8D577205EF27C00B4141E /* Sources */,
+				26C8D578205EF27C00B4141E /* Frameworks */,
+				26C8D579205EF27C00B4141E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Diner Finder";
+			productName = "Diner Finder";
+			productReference = 26C8D57B205EF27C00B4141E /* Diner Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26C8D58E205EF27C00B4141E /* Diner FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C8D5A6205EF27C00B4141E /* Build configuration list for PBXNativeTarget "Diner FinderTests" */;
+			buildPhases = (
+				26C8D58B205EF27C00B4141E /* Sources */,
+				26C8D58C205EF27C00B4141E /* Frameworks */,
+				26C8D58D205EF27C00B4141E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26C8D591205EF27C00B4141E /* PBXTargetDependency */,
+			);
+			name = "Diner FinderTests";
+			productName = "Diner FinderTests";
+			productReference = 26C8D58F205EF27C00B4141E /* Diner FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26C8D599205EF27C00B4141E /* Diner FinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C8D5A9205EF27C00B4141E /* Build configuration list for PBXNativeTarget "Diner FinderUITests" */;
+			buildPhases = (
+				26C8D596205EF27C00B4141E /* Sources */,
+				26C8D597205EF27C00B4141E /* Frameworks */,
+				26C8D598205EF27C00B4141E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26C8D59C205EF27C00B4141E /* PBXTargetDependency */,
+			);
+			name = "Diner FinderUITests";
+			productName = "Diner FinderUITests";
+			productReference = 26C8D59A205EF27C00B4141E /* Diner FinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26C8D573205EF27C00B4141E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sarah and Cathy";
+				TargetAttributes = {
+					26C8D57A205EF27C00B4141E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					26C8D58E205EF27C00B4141E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26C8D57A205EF27C00B4141E;
+					};
+					26C8D599205EF27C00B4141E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26C8D57A205EF27C00B4141E;
+					};
+				};
+			};
+			buildConfigurationList = 26C8D576205EF27C00B4141E /* Build configuration list for PBXProject "Diner Finder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26C8D572205EF27C00B4141E;
+			productRefGroup = 26C8D57C205EF27C00B4141E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26C8D57A205EF27C00B4141E /* Diner Finder */,
+				26C8D58E205EF27C00B4141E /* Diner FinderTests */,
+				26C8D599205EF27C00B4141E /* Diner FinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26C8D579205EF27C00B4141E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C8D589205EF27C00B4141E /* LaunchScreen.storyboard in Resources */,
+				26C8D586205EF27C00B4141E /* Assets.xcassets in Resources */,
+				26C8D584205EF27C00B4141E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C8D58D205EF27C00B4141E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C8D598205EF27C00B4141E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26C8D577205EF27C00B4141E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C8D581205EF27C00B4141E /* ViewController.swift in Sources */,
+				26C8D57F205EF27C00B4141E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C8D58B205EF27C00B4141E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C8D594205EF27C00B4141E /* Diner_FinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C8D596205EF27C00B4141E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C8D59F205EF27C00B4141E /* Diner_FinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26C8D591205EF27C00B4141E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26C8D57A205EF27C00B4141E /* Diner Finder */;
+			targetProxy = 26C8D590205EF27C00B4141E /* PBXContainerItemProxy */;
+		};
+		26C8D59C205EF27C00B4141E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26C8D57A205EF27C00B4141E /* Diner Finder */;
+			targetProxy = 26C8D59B205EF27C00B4141E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26C8D582205EF27C00B4141E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C8D583205EF27C00B4141E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26C8D587205EF27C00B4141E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C8D588205EF27C00B4141E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26C8D5A1205EF27C00B4141E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26C8D5A2205EF27C00B4141E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26C8D5A4205EF27C00B4141E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Diner Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-234.Diner-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26C8D5A5205EF27C00B4141E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Diner Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-234.Diner-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26C8D5A7205EF27C00B4141E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Diner FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-234.Diner-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diner Finder.app/Diner Finder";
+			};
+			name = Debug;
+		};
+		26C8D5A8205EF27C00B4141E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Diner FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-234.Diner-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diner Finder.app/Diner Finder";
+			};
+			name = Release;
+		};
+		26C8D5AA205EF27C00B4141E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Diner FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-234.Diner-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Diner Finder";
+			};
+			name = Debug;
+		};
+		26C8D5AB205EF27C00B4141E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Diner FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-234.Diner-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Diner Finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26C8D576205EF27C00B4141E /* Build configuration list for PBXProject "Diner Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C8D5A1205EF27C00B4141E /* Debug */,
+				26C8D5A2205EF27C00B4141E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C8D5A3205EF27C00B4141E /* Build configuration list for PBXNativeTarget "Diner Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C8D5A4205EF27C00B4141E /* Debug */,
+				26C8D5A5205EF27C00B4141E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C8D5A6205EF27C00B4141E /* Build configuration list for PBXNativeTarget "Diner FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C8D5A7205EF27C00B4141E /* Debug */,
+				26C8D5A8205EF27C00B4141E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C8D5A9205EF27C00B4141E /* Build configuration list for PBXNativeTarget "Diner FinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C8D5AA205EF27C00B4141E /* Debug */,
+				26C8D5AB205EF27C00B4141E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26C8D573205EF27C00B4141E /* Project object */;
+}
